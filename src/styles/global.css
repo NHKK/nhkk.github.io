@@ -9,7 +9,7 @@ body {
 }
 
 nav{
-  position: fixed;
+  /*position: fixed;*/
   z-index: 99;
   width: 100%;
   background: #242526;
@@ -51,4 +51,9 @@ nav .wrapper{
 }
 .nav-links .mobile-item{
   display: none;
+}
+.not-nav-content{
+  position: absolute;
+  width: 100%;
+  padding: 0 30px;
 }
