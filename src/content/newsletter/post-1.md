@@ -1,8 +1,8 @@
 ---
-title: "Newsletter Post 1"
+title: "First post"
 date: 2019-01-01T00:00:00.000Z
 categories: [Newsletter, News]
-summary: "This is the first newsletter post."
+summary: "My first post"
 ---
 
 # Newsletter Post 1
