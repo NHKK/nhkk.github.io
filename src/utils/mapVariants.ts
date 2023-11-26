@@ -23,7 +23,18 @@ const MAP_COLOR_VARIANT_TO_BG: Record<TailwindColor, string> = {
   embarkspace2: "bg-[#2D2B40]",
   embarkspace3: "bg-[#3E3859]",
   embarkspace4: "bg-[#585273]",
-  embarkgreen: "bg-[#A1EFD3]"
+  embarkred: "bg-[#585273]",
+  embarkreddark: "bg-[#F02E6E]",
+  embarkgreen: "bg-[#A1EFD3]",
+  embarkgreendark: "bg-[#7FE9C3]",
+  embarkyellow: "bg-[#FFE6B3]",
+  embarkyellowdark: "bg-[#F2B482]",
+  embarkblue: "bg-[#91DDFF]",
+  embarkbluedark: "bg-[#78A8FF]",
+  embarkpurple: "bg-[#D4BFFF]",
+  embarkpurpledark: "bg-[#7676FF]",
+  embarkteal: "bg-[#ABF8F7]",
+  embarktealdark: "bg-[#63F2F1]",
 };
 
 const MAP_COLOR_VARIANT_TO_TEXT: Record<TailwindColor, string> = {
@@ -49,7 +60,18 @@ const MAP_COLOR_VARIANT_TO_TEXT: Record<TailwindColor, string> = {
   embarkspace2: "text-[#2D2B40]",
   embarkspace3: "text-[#3E3859]",
   embarkspace4: "text-[#585273]",
-  embarkgreen: "text-[#A1EFD3]"
+  embarkred: "text-[#585273]",
+  embarkreddark: "text-[#F02E6E]",
+  embarkgreen: "text-[#A1EFD3]",
+  embarkgreendark: "text-[#7FE9C3]",
+  embarkyellow: "text-[#FFE6B3]",
+  embarkyellowdark: "text-[#F2B482]",
+  embarkblue: "text-[#91DDFF]",
+  embarkbluedark: "text-[#78A8FF]",
+  embarkpurple: "text-[#D4BFFF]",
+  embarkpurpledark: "text-[#7676FF]",
+  embarkteal: "text-[#ABF8F7]",
+  embarktealdark: "text-[#63F2F1]",
 };
 
 export { MAP_COLOR_VARIANT_TO_BG, MAP_COLOR_VARIANT_TO_TEXT };
