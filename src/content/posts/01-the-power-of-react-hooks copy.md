@@ -1,8 +1,8 @@
 ---
-title: "The Power Of React Hooks"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
+title: "New Dev Environment Setup Runbook"
+publishedAt: 2023-12-01
+description: "Typical things I do when setting up a new dev environment"
+slug: "new-dev-setup"
 isPublish: true
 ---
 
