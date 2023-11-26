@@ -1,20 +1,14 @@
-import { z, defineCollection } from "astro:content";
+import { defineCollection, z } from "astro:content";
 
-// Define a collection of newletter posts
-const newsletterCollection = defineCollection({
+const postsCollection = defineCollection({
+  type: "content",
   schema: z.object({
-    title: z.string().max(100),
-    date: z.date(),
-    categories: z.array(z.string()),
-    summary: z.string(),
-    image: z.string().optional(),
-  }).passthrough(),
+    title: z.string(),
+    publishedAt: z.date(),
+    description: z.string(),
+    isPublish: z.boolean(),
+    isDraft: z.boolean().default(false),
+  }),
 });
 
-// Define more collections here...
-
-// Export
-export const collections = {
-//  collectionName: collection
-newsletter: newsletterCollection,
-};
+export const collections = { posts: postsCollection };
