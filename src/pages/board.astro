@@ -1,19 +1,26 @@
 ---
 import BoardLayout from "@/layouts/BoardLayout.astro";
-import PostCard from "@/components/PostCard.astro";
+import BoardCard from "@/components/BoardCard.astro";
 ---
 
 <BoardLayout>
   <main>
-      <div class="grid grid-cols-4 gap-4 text-embarkspace0">
-        <div class="p-4 bg-embarkreddark rounded-md flex items-center justify-center">Backlog</div>
-        <div class="p-4 bg-sky-300 rounded-md flex items-center justify-center">Ready</div>
-        <div class="p-4 bg-embarkyellow rounded-md flex items-center justify-center">In Progress</div>
-        <div class="p-4 bg-embarkgreen rounded-md flex items-center justify-center">Done</div>
-        <div class="p-4 bg-embarkreddark rounded-md flex items-center justify-center">
-          <div class="flex w-full flex-col bg-white">
-            hi mom
-          </div>
+      <div class="flex items-strech min-h-screen">
+        <div class="flex-1 px-4 py-2 m-2">
+          <div class="bg-embarkreddark text-embarkspace1 text-center text-3xl py-2"> Backlog </div>
+          <BoardCard title="himom" description="test" />
+          <BoardCard title="himom" description="test" />
+        </div>
+        <div class="flex-1 px-4 py-2 m-2">
+          <div class="bg-embarkblue text-embarkspace1 text-center text-3xl py-2"> Ready </div>
+          <BoardCard title="byedad" description="test" />
+        </div>
+        <div class="flex-1 px-4 py-2 m-2">
+          <div class="bg-embarkyellow text-embarkspace1 text-center text-3xl py-2"> In Progress </div>
+          <BoardCard title="wip" description="test" />
+        </div>
+        <div class="flex-1 px-4 py-2 m-2">
+          <div class="bg-embarkgreen text-embarkspace1 text-center text-3xl py-2"> Done </div>
         </div>
       </div>
   </main>
