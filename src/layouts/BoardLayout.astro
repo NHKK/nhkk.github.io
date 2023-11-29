@@ -1,0 +1,25 @@
+---
+import theme from "@/data/theme";
+
+import "@fontsource/open-sans";
+import "@/styles/tailwind.css";
+import "@/styles/post.css";
+
+
+const headTags = Astro.props;
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <body
+    class="bg-embarkspace0 text-neutral-400 px-10"
+  >
+    <slot />
+    <style is:global>
+      html {
+        font-family: "Open Sans";
+      }
+    </style>
+  </body>
+</html>
