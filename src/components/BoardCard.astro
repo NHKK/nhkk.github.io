@@ -1,7 +1,10 @@
 ---
+import type { TodoStatus } from "@/utils/types/Board";
+
 type Props = {
   title: string;
   description: string;
+  status: TodoStatus;
 }
 const {title, description} = Astro.props
 ---

@@ -6,20 +6,20 @@ import BoardCard from "@/components/BoardCard.astro";
 <BoardLayout>
   <main>
       <div class="flex items-strech min-h-screen">
-        <div class="flex-1 px-4 py-2 m-2">
+        <div class="flex-1 px-4 py-2 m-2" id="backlogcol">
           <div class="bg-embarkreddark text-embarkspace1 text-center text-3xl py-2"> Backlog </div>
           <BoardCard title="himom" description="test" />
           <BoardCard title="himom" description="test" />
         </div>
-        <div class="flex-1 px-4 py-2 m-2">
+        <div class="flex-1 px-4 py-2 m-2" id="readycol">
           <div class="bg-embarkblue text-embarkspace1 text-center text-3xl py-2"> Ready </div>
           <BoardCard title="byedad" description="test" />
         </div>
-        <div class="flex-1 px-4 py-2 m-2">
+        <div class="flex-1 px-4 py-2 m-2" id="progresscol">
           <div class="bg-embarkyellow text-embarkspace1 text-center text-3xl py-2"> In Progress </div>
           <BoardCard title="wip" description="test" />
         </div>
-        <div class="flex-1 px-4 py-2 m-2">
+        <div class="flex-1 px-4 py-2 m-2" id="donecol">
           <div class="bg-embarkgreen text-embarkspace1 text-center text-3xl py-2"> Done </div>
         </div>
       </div>
