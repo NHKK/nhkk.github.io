@@ -1,27 +1,18 @@
 ---
 title: "New Dev Environment Setup Runbook"
-publishedAt: 2023-12-01
+publishedAt: 2023-12-10
 description: "Typical things I do when setting up a new dev environment"
 slug: "new-dev-setup"
 isPublish: true
 ---
 
-## Vocesque meum remis est neque Neptunus monte
+## Disable animations
 
-Lorem markdownum nunc _adfuit_ fecisse, `quae pectus`, quod seu mortale suo
-Minerva iussit obortas. Favilla victa; alarum signis barbara, nec _sibi dentes_
-hostes?
+Disable animations via the following code.
 
-## Corporibus Leucon
+## Update Mac System Setting Preference
 
-Quaeque viridis, pariter possit. Velatus Thetis, ab Buten, in et ite positis
-annis ut Troasque altaque. Ancaeus convertit conscia Phinea petis. Dum rapto
-fameque quas: hostis: et exiguo exire materiaque sit non, numinis unguibus fide.
-Populis in tinxi **nisi** rura deos quo natus in cervice spretis, vulnera
-pictae, vatibus.
-
-> Illi tenebras si vultum suae. Matrem iam: iniqua adire, tetigere meque,
-> cessant, gerebat.
+Disable "Natural Scrolling".
 
 ## Montes ignarus precor rogabam primus ridet sanguine
 
